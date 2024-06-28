@@ -1,0 +1,18 @@
+.BasicForm{
+    width: 310px;
+    text-align: center;
+    margin: auto;
+}
+.formRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 300px;
+    gap: 10;
+    margin-top: 10px;
+
+    label{
+        width: 100px;
+        text-align: left;
+    }
+}
